@@ -5,8 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Rajnish</h1>
+    <form name="quiz" id="quiz">
+        <div>
+            <p>What is the best programming language.</p>
+            <p><input type="radio" name="question1" value="HTML">A.HTML</p>
+            <p><input type="radio" name="question1" value="Python">B.Python</p>
+            <p><input type="radio" name="question1" value="Javascript">C.Javascript</p>
+            <p><input type="radio" name="question1" value="Swift">D.Swift</p>
+        </div>
+
+        <div>
+            <p>What is the best programming language.</p>
+            <p><input type="radio" name="question2" value="HTML">A.HTML</p>
+            <p><input type="radio" name="question2" value="Python">B.Python</p>
+            <p><input type="radio" name="question2" value="Javascript">C.Javascript</p>
+            <p><input type="radio" name="question2" value="Swift">D.Swift</p>
+        </div>
+        <p> <input type="button" value="I am done!" id="btn" onclick="check()"></p>
+    </form>
+    <script src="index.js"></script>
 </body>
+
 </html>
