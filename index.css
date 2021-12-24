@@ -63,7 +63,7 @@ h2{
         font-size: 50%;
     }
     .scoreboard{
-
+background-size: cover;
         
     }
 }
@@ -73,7 +73,7 @@ h2{
         font-size: 30%;
     }
     .scoreboard{
-        
+        background-size: cover;
         
     }
 }
