@@ -49,6 +49,14 @@ h2{
     padding: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#btn{
+    height: 3rem;
+    width: 8rem;
+    color: white;
+    background: blueviolet;
+    border: 2.5px solid none;
+    box-shadow: 5px 3px 6px 2px darkmagenta;
+}
 
 @media(max-width:998) {
     html{
