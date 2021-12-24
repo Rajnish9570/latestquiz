@@ -1,4 +1,40 @@
-body{
-    background: black;
-    color: blanchedalmond;
+*{
+    padding: 0;
+    margin: 0;
 }
+p{
+    margin: 1rem;
+    color: blue;
+    padding: 0.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+}
+.ques{
+    color: darkblue;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+
+}
+.scoreboard{
+    text-align: center;
+    margin: 1rem;
+    background: blueviolet;
+    height: 16rem;
+    width:25rem ;
+
+}
+#result{
+    text-align: center;
+padding: 2rem;
+color: white;
+font-size: 1.5rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
