@@ -6,7 +6,7 @@ body{
     background: darkgray;
 }
 .header{
-    float: right;
+    
     text-align: center;
     margin: 1rem;
     font-weight: bold;
@@ -55,7 +55,7 @@ h2{
         font-size: 55%;
     }
     .scoreboard{
-        margin: 10%;
+        height: 15%;
     }
 }
 
@@ -64,6 +64,6 @@ h2{
         font-size: 45%;
     }
     .scoreboard{
-        margin:7% ;
+        height: 10%;
     }
 }
