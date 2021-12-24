@@ -64,6 +64,7 @@ h2{
     }
     .scoreboard{
 background-size: cover;
+margin-right: 2px;
         
     }
 }
@@ -74,6 +75,6 @@ background-size: cover;
     }
     .scoreboard{
         background-size: cover;
-        
+        margin: 2px;
     }
 }
