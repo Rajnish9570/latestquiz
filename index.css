@@ -54,7 +54,7 @@ h2{
     width: 8rem;
     color: white;
     background: blueviolet;
-    border: 2.5px solid none;
+    border: 2.5px solid blueviolet;
     box-shadow: 5px 3px 6px 2px darkmagenta;
 }
 
