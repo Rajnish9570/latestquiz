@@ -50,4 +50,20 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media(max-width:998) {
+    html{
+        font-size: 55%;
+    }
+    .scoreboard{
+        margin: 10%;
+    }
+}
 
+@media(max-width:768) {
+    html{
+        font-size: 45%;
+    }
+    .scoreboard{
+        margin:7% ;
+    }
+}
