@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background: darkgray;
+}
 p{
     margin: 1rem;
     color: blue;
