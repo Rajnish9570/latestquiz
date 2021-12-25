@@ -49,3 +49,11 @@ body{
      padding: 2px;
      font-size:1.5rem ;
  }
+
+ @media(max-width:768) {
+    p{
+        font-size: 30%;
+    }
+}
+         
+    
