@@ -32,3 +32,20 @@ body{
     border: 2.5px solid blueviolet;
     box-shadow: 5px 3px 6px 2px darkmagenta
  }
+ div{
+     margin-top: 20px;
+     background:green;
+     font-size: 1.5rem;
+     padding: 5px;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     letter-spacing: 1px;
+     text-align: justify;
+     text-shadow: 4px 5px 5px black;
+ }
+ a{
+     color:darkblue;
+     background-color:white;
+     padding: 2px;
+     
+ }
