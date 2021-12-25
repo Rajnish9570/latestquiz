@@ -1,0 +1,33 @@
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    font-size: 2rem;
+    border: 1.5px solid green;
+    width: 20rem;
+    box-shadow: 4px 3px 5px 3px red;
+    text-shadow: 2px 3px 4px blueviolet;
+    letter-spacing: 2px;
+}
+body{
+    margin: 20px;
+}
+ p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blue;
+    font-size: 1rem;
+    border: 1.5px solid blue;
+    width: 20rem;
+    box-shadow: 4px 3px 6px 3px blue; 
+    letter-spacing: 1px;
+ }
+
+ #btn{
+    height: 3rem;
+    width: 8rem;
+    color: white;
+    background: blueviolet;
+    border: 2.5px solid blueviolet;
+    box-shadow: 5px 3px 6px 2px darkmagenta
+ }
