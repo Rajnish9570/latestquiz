@@ -35,7 +35,7 @@ body{
  div{
      margin-top: 20px;
      background:green;
-     font-size: 1.5rem;
+     font-size: 1rem;
      padding: 5px;
      color: white;
      font-family: Arial, Helvetica, sans-serif;
@@ -47,5 +47,5 @@ body{
      color:darkblue;
      background-color:white;
      padding: 2px;
-     
+     font-size:1.5rem ;
  }
