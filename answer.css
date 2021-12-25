@@ -18,10 +18,10 @@ body{
     color:blue;
     font-size: 1rem;
     border: 1.5px solid blue;
-    width: 20rem;
     box-shadow: 4px 3px 6px 3px blue; 
     letter-spacing: 1px;
     padding: 4px;
+    margin-right: 25px;
  }
 
  #btn{
