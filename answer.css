@@ -21,6 +21,7 @@ body{
     width: 20rem;
     box-shadow: 4px 3px 6px 3px blue; 
     letter-spacing: 1px;
+    padding: 4px;
  }
 
  #btn{
