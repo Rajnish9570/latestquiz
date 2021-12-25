@@ -95,19 +95,13 @@ h2{
     html{
         font-size: 50%;
     }
-    .scoreboard{
-background-size: cover;
-
-        
-    }
+ 
+    
 }
 
 @media(max-width:768) {
     html{
         font-size: 30%;
     }
-    .scoreboard{
-        background-size: cover;
-         
-    }
+
 }
