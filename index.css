@@ -36,8 +36,6 @@ font-weight: bold;
 margin-top: 1rem;
     background: blueviolet;
     height: 16rem;
-     ;
-
 }
 .head{
     font-size:1.5rem;
@@ -96,7 +94,7 @@ h2{
         font-size: 50%;
     }
  
-    
+
 }
 
 @media(max-width:768) {
