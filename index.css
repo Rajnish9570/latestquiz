@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(to right,blueviolet,indigo,pink);
+  background: linear-gradient(to left,blueviolet,blue,pink);
   text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
