@@ -1,47 +1,42 @@
 body{
-  background: linear-gradient(to right,blue,pink);
-  margin: 15px;
-
-}
-h3{
-font-size: 1.7rem;
-margin: 15px;
-letter-spacing: 1px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h4{
-  font-size: 1.5rem;
+  background: linear-gradient(to right,blueviolet,indigo,pink);
   text-align: center;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-family: sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.myself{
+#input{
+  height: 3rem;
+  width: 300px;
+  text-align: center;
+  font-size: 1.5rem;
+  border: none;
+  margin: 20px;
+  margin-top: 100px;
+color: blue;
+border: none;
+}
+.btn{
+  height: 4rem;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: 800;
+  color: navy;
+  letter-spacing: 1px;
+}
+#result{
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 1.5px;
+}
+#about{
+  display: none;
   margin: 15px;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: justify;
+  padding: 5px;
+  padding: 5px;
 }
-#code{
-  display: none;
-
-}
-p{
-  margin: 15px;
-  background-color: white;
-  letter-spacing: 1px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 10px;
-  color: blue;
-  text-align: justify;
-}
-button{
-  margin: 20px;
-  height: 3rem;
-  width: 8rem;
-  font-weight: 800;
-  font-size: 1rem;
-  border-radius: 4px;
-  border: none;
-color: indigo;
+a{
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
 }

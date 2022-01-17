@@ -5,34 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-<link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<h3>MY PROTFOLIO</h3>
-  <h4>Welcome To My Protfolio website</h4>
-  <div class="myself">
-    Hello!<br>
-    I am Rajnish singh, Now you are on my Protfolio Page. My Protfolio is a representation of all that i have learned and accomplished as science
-    and engineering student.
-</div>
-<button onclick="hdn()">MY SKILL</button>
-<div id="code">
- <p>My Skills is in HTML, Css, Javascript. I am web-designing and web-developer. I am also skill in data science, to become a data scientist
-   i also devloped my skill in python language.</p>
-</div>
-
+  <input type="number" id="input" placeholder="enter the no."><br><br>
+  <input type="button" class="btn" value="Get in touch" onclick="decimal()">
+  <p id="result">Result here</p>
+  <hr>
+  <input type="button" class="btn"  value="ABOUT" onclick="about()"><br>
+  <div id="about">
+    <h2>ABOUT !</h2>
+    <p>This a site to convert decimal number to binary digit, I am Rajnish singh developer of this site.<br>
+    DECIMAL NUMBER<br>The number contain 10 digit 0 to 9 is called decimal number<br>
+  BINARY DIGIT<br>The number which contain only 0 and 1, computer is understand only binary digit 0 and 1</p>
+  </div>
+  <a href="mailto:rockstarrajnish4658@gmail.com"> CLICK-ME ➡️Contact developer direct on E-mail</a>
 </body>
-<script>
-  var a;
-  function hdn() {
-    if(a==1){
-      document.getElementById("code").style.display="inline"
-      return a=0;
-    }
-    else{
-      document.getElementById("code").style.display="none"
-      return a=1;
-    }
-  }
-</script>
+<script src="java.js"></script>
 </html>
