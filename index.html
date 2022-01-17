@@ -16,5 +16,23 @@
     I am Rajnish singh, Now you are on my Protfolio Page. My Protfolio is a representation of all that i have learned and accomplished as science
     and engineering student.
 </div>
+<button onclick="hdn()">MY SKILL</button>
+<div id="code">
+ <p>My Skills is in HTML, Css, Javascript. I am web-designing and web-developer. I am also skill in data science, to become a data scientist
+   i also devloped my skill in python language.</p>
+</div>
 </body>
+<script>
+  var a;
+  function hdn() {
+    if(a==1){
+      document.getElementById("code").style.display="inline"
+      return a=0;
+    }
+    else{
+      document.getElementById("code").style.display="none"
+      return a=1;
+    }
+  }
+</script>
 </html>
