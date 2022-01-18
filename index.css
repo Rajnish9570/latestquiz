@@ -25,7 +25,7 @@ border: none;
 }
 #result{
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 700;
   color: white;
   letter-spacing: 1.5px;
 }
@@ -37,7 +37,8 @@ a{
   color:black;
   text-decoration: none;
   margin-top: 20px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   background: goldenrod;
   margin-top: 10px;
+  padding: 3px;
 }
