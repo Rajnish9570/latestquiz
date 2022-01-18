@@ -2,6 +2,7 @@ body{
   background: linear-gradient(to left,blueviolet,blue,pink);
   text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-size: cover;
 }
 #input{
   height: 3rem;
@@ -30,7 +31,6 @@ border: none;
 }
 #about{
   display: none;
-  margin: 15px;
   color: white;
   padding: 5px;
   padding: 5px;
