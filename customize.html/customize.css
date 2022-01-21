@@ -7,7 +7,8 @@
     outline: none;
 }
 body{
-    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
 }
 #button{
     width: 6rem;
@@ -33,7 +34,7 @@ h2{
     font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: chocolate;
     text-align: justify;
 }
