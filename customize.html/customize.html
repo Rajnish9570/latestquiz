@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="customize.css">
 </head>
 <body>
-  <h2> Design your text accroding to your need </h2>
+  <h4> Design your text accroding to your need </h4>
   <div class="header">
     <textarea name=""  id="text"  cols="30" wrap="soft" placeholder="Type here" ></textarea>
     <input type="button" id="button" value="Display-text" onclick="display()">
@@ -29,6 +29,14 @@
     <input type="button" id="pink" value="pink" onclick="pinkishborder()">
     <input type="button" id="whit" value="white" onclick="whitishborder()">
     <input type="button" id="black" value="black" onclick="blackishborder()">
+    <p>Design text with background </p>
+    <input type="button"  value="red" onclick="redbg()">
+    <input type="button"  value="orange" onclick="whitebg()">
+    <input type="button"  value="yellow" onclick="yellowbg()">
+    <input type="button"  value="blue" onclick="bluebg()">
+    <input type="button"  value="pink" onclick="pinkbg()">
+    <input type="button"  value="white" onclick="whitbg()">
+    <input type="button"  value="black" onclick="blackbg()">
     <p>Change the background color</p>
     <body onkeyup=document.bgColor=document.f.a.value><form name="f"><input type="text" placeholder="type color name" name="a">
     <hr>
@@ -81,6 +89,30 @@
     }
     function whitishborder() {
         document.getElementById('paragraph').style.border="3px solid white"
+    }
+
+
+
+    function redbg() {
+        document.getElementById('paragraph').style.background="red"
+    }
+    function whitebg() {
+        document.getElementById('paragraph').style.background="orange"
+    }
+    function yellowbg() {
+        document.getElementById('paragraph').style.background="yellow"
+    }
+    function bluebg() {
+        document.getElementById('paragraph').style.background="blue"
+    }
+    function pinkbg() {
+        document.getElementById('paragraph').style.background="pink"
+    }
+    function blackbg() {
+        document.getElementById('paragraph').style.background="black"
+    }
+    function whitbg() {
+        document.getElementById('paragraph').style.background="white"
     }
 
 </script>
