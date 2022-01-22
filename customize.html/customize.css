@@ -5,6 +5,7 @@
     font-size: 1rem;
     border: 2px solid blue;
     outline: none;
+    background: linear-gradient(To right,yellow,white,yellowgreen);
 
 }
 body{
