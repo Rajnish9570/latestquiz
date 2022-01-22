@@ -19,6 +19,18 @@
     <input type="button" id="yellow" value="yellow" onclick="yellowish()">
     <input type="button" id="blue" value="blue" onclick="blueish()">
     <input type="button" id="pink" value="pink" onclick="pinkish()">
+    <input type="button" id="whit" value="white" onclick="whitish()">
+    <input type="button" id="black" value="black" onclick="blackish()">
+    <p>Design text with Border</p>
+    <input type="button" id="redborder" value="red" onclick="redishborder()">
+    <input type="button" id="whiteborder" value="orange" onclick="whiteishborder()">
+    <input type="button" id="yellow" value="yellow" onclick="yellowishborder()">
+    <input type="button" id="blue" value="blue" onclick="blueishborder()">
+    <input type="button" id="pink" value="pink" onclick="pinkishborder()">
+    <input type="button" id="whit" value="white" onclick="whitishborder()">
+    <input type="button" id="black" value="black" onclick="blackishborder()">
+    <p>Change the background color</p>
+    <body onkeyup=document.bgColor=document.f.a.value><form name="f"><input type="text" placeholder="type color name" name="a">
     <hr>
     <p id="paragraph"></p>
 </body>
@@ -42,5 +54,34 @@
     function pinkish() {
         document.getElementById('paragraph').style.color="pink"
     }
+    function blackish() {
+        document.getElementById('paragraph').style.color="black"
+    }
+    function whitish() {
+        document.getElementById('paragraph').style.color="white"
+    }
+
+    function redishborder() {
+        document.getElementById('paragraph').style.border="3px solid red"
+    }
+    function whiteishborder() {
+        document.getElementById('paragraph').style.border="3px solid orange"
+    }
+    function yellowishborder() {
+        document.getElementById('paragraph').style.border="3px solid yellow"
+    }
+    function blueishborder() {
+        document.getElementById('paragraph').style.border="3px solid blue"
+    }
+    function pinkishborder() {
+        document.getElementById('paragraph').style.border="3px solid pink"
+    }
+    function blackishborder() {
+        document.getElementById('paragraph').style.border="3px solid black"
+    }
+    function whitishborder() {
+        document.getElementById('paragraph').style.border="3px solid white"
+    }
+
 </script>
 </html>
