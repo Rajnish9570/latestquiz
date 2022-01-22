@@ -43,3 +43,9 @@ h5{
 p{
     font-size:0.7rem;
 }
+.we{
+    background: linear-gradient(to right,pink ,white,blueviolet);
+    border: none;
+    outline: none;
+    color: darkblue;
+}
