@@ -1,7 +1,7 @@
 #text {
     text-align: justify;
     display: block;
-    margin-bottom: 10px;
+
     font-size: 1rem;
     border: 2px solid blue;
     outline: none;
@@ -13,13 +13,13 @@ body{
     letter-spacing: 1px;
 }
 #button{
-    width: 6rem;
-    background-color: blueviolet;
-    color: white;
+    background: white;
+font-weight: bold;
+    color: blue;
     outline: none;
     border: none;
-    font-size: 1rem;
-    margin: 5px;
+    font-size: 0.8rem;
+
 }
 h5{
     text-align: center;
@@ -51,4 +51,8 @@ p{
     border: none;
     outline: none;
     color: darkblue;
+}
+.box{
+    
+    text-align: center;
 }
