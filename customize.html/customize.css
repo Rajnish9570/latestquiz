@@ -13,13 +13,10 @@ body{
     letter-spacing: 1px;
 }
 #button{
-    background: white;
-font-weight: bold;
-    color: blue;
-    outline: none;
-    border: none;
-    font-size: 0.8rem;
-
+   border: 2px solid black;
+   background: linear-gradient(navy,green,red);
+color: white;
+font-weight: 700;
 }
 h5{
     text-align: center;
