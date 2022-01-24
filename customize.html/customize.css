@@ -17,6 +17,8 @@ body{
    background: linear-gradient(navy,green,red);
 color: white;
 font-weight: 700;
+height: 2rem;
+width: 6rem;
 }
 h5{
     text-align: center;
@@ -29,7 +31,9 @@ h5{
 hr{
     height: 4px;
     background: linear-gradient(to right, blue,green,red,pink)
-
+}
+#text{
+    margin-bottom: 5px;
 }
 #paragraph{
     margin: 5px ;
