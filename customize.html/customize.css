@@ -17,10 +17,10 @@ border: none;
    background: linear-gradient(navy,green,red);
 color: white;
 font-weight: 700;
-height: 2rem;
-width: 6rem;
+height: 3rem;
+width: 8rem;
 outline: none;
-border-radius: 20px;
+border-radius: 50px 2px 50px 3px;
 }
 h5{
     text-align: center;
