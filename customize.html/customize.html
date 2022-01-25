@@ -5,117 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="customize.css">
 </head>
 <body>
-  <h5> Design your text accroding to your need </h5>
-  <div class="header">
-    <textarea name=""  id="text"  cols="30" wrap="soft" placeholder="Type here" ></textarea>
-    <input type="button" id="button" value="CLICK-ME" onclick="display()">
-    <div class="box">
-    <p>Design text with color</p>
-    <input type="button" class="we" value="Red" onclick="redish()">
-    <input type="button" class="we" value="orange" onclick="whiteish()">
-    <input type="button" class="we" value="yellow" onclick="yellowish()">
-    <input type="button" class="we"value="blue" onclick="blueish()">
-    <input type="button" class="we" value="pink" onclick="pinkish()">
-    <input type="button" class="we" value="white" onclick="whitish()">
-    <input type="button" class="we" value="black" onclick="blackish()">
-    <p>Design text with Border</p>
-    <input type="button" class="we" value="red" onclick="redishborder()">
-    <input type="button" class="we" value="orange" onclick="whiteishborder()">
-    <input type="button" class="we" value="yellow" onclick="yellowishborder()">
-    <input type="button" class="we" value="blue" onclick="blueishborder()">
-    <input type="button" class="we" value="pink" onclick="pinkishborder()">
-    <input type="button" class="we" value="white" onclick="whitishborder()">
-    <input type="button" class="we" value="black" onclick="blackishborder()">
-    <p>Design text with background </p>
-    <input type="button" class="we" value="red" onclick="redbg()">
-    <input type="button" class="we" value="orange" onclick="whitebg()">
-    <input type="button" class="we" value="yellow" onclick="yellowbg()">
-    <input type="button" class="we" value="blue" onclick="bluebg()">
-    <input type="button" class="we" value="pink" onclick="pinkbg()">
-    <input type="button" class="we" value="white" onclick="whitbg()">
-    <input type="button" class="we" value="black" onclick="blackbg()">
-    <p>Change the background color</p>
-    <body onkeyup=document.bgColor=document.f.a.value><form name="f"><input type="text" placeholder="type color name" name="a">
+<div class="container">
+    <div class="groceries">
+<h1 style="text-align: center;">Grocery List</h1>
+<div style="text-align: center;">
+   <span id="pencil">✏️</span><input id="userinput" type="text">
+</div>
+<br>
+<div id="allitems"></div>
     </div>
-    <div class="display">Display</div>
-    <hr>
-    <p id="paragraph"></p>
+</div>
+
+<script src="custtomize.js"></script>
 </body>
-<script>
-    function display() {
-    var word= document.getElementById("text").value;
-    document.getElementById("paragraph").innerHTML=word;
-    }
-    function redish() {
-        document.getElementById('paragraph').style.color="red"
-    }
-    function whiteish() {
-        document.getElementById('paragraph').style.color="orange"
-    }
-    function yellowish() {
-        document.getElementById('paragraph').style.color="yellow"
-    }
-    function blueish() {
-        document.getElementById('paragraph').style.color="blue"
-    }
-    function pinkish() {
-        document.getElementById('paragraph').style.color="pink"
-    }
-    function blackish() {
-        document.getElementById('paragraph').style.color="black"
-    }
-    function whitish() {
-        document.getElementById('paragraph').style.color="white"
-    }
-
-    function redishborder() {
-        document.getElementById('paragraph').style.border="3px solid red"
-    }
-    function whiteishborder() {
-        document.getElementById('paragraph').style.border="3px solid orange"
-    }
-    function yellowishborder() {
-        document.getElementById('paragraph').style.border="3px solid yellow"
-    }
-    function blueishborder() {
-        document.getElementById('paragraph').style.border="3px solid blue"
-    }
-    function pinkishborder() {
-        document.getElementById('paragraph').style.border="3px solid pink"
-    }
-    function blackishborder() {
-        document.getElementById('paragraph').style.border="3px solid black"
-    }
-    function whitishborder() {
-        document.getElementById('paragraph').style.border="3px solid white"
-    }
-
-
-
-    function redbg() {
-        document.getElementById('paragraph').style.background="red"
-    }
-    function whitebg() {
-        document.getElementById('paragraph').style.background="orange"
-    }
-    function yellowbg() {
-        document.getElementById('paragraph').style.background="yellow"
-    }
-    function bluebg() {
-        document.getElementById('paragraph').style.background="blue"
-    }
-    function pinkbg() {
-        document.getElementById('paragraph').style.background="pink"
-    }
-    function blackbg() {
-        document.getElementById('paragraph').style.background="black"
-    }
-    function whitbg() {
-        document.getElementById('paragraph').style.background="white"
-    }
-
-</script>
 </html>
